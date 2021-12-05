@@ -1,6 +1,7 @@
 body{
     height: 100%;
-   overflow: hidden;
+    overflow: hidden;
+    min-width: 500px;
 }
 .col-5{
     min-width: 350px;
@@ -34,10 +35,85 @@ body{
 }
 
 .user{
+    padding: 5px;
     height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: whitesmoke;
     box-shadow: 0px 0px 4px 4px #888888;
     margin: 5px;
+}
+
+.user-gp{
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+
+.user-sm{
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 4px 4px #888888;
+    margin: 15px;
+}
+
+.right-top{
+    max-height: 80px;
+    padding: 10px;
+    min-width: 700px;
+    border: 1px solid grey;
+    overflow: hidden;
+    margin-left: -10px;
+}
+.left>h4{
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.left{
+    float: left;
+    display: flex;
+}
+
+.right{
+    float: right;
+    display: flex;
+    align-items: center;
+
+}
+.img-group{
+    margin-left: 30px;
+}
+.img-group>img{
+    margin-left: -20px;
+}
+.img-group>label{
+    margin-left: -20px;
+    background-color: rgb(81, 104, 96);
+    text-align: center;
+    font-weight: bold;
+}
+
+.telephone{
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    margin-left: 10px;
+
+}
+
+.info{
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+
 }
