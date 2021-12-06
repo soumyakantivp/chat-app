@@ -72,6 +72,7 @@ body{
     border: 1px solid grey;
     overflow: hidden;
     margin-left: -10px;
+   
 }
 .left>h4{
     line-height: 50px;
@@ -116,4 +117,38 @@ body{
     width: 40px;
     padding: 7px;
 
+}
+
+.chat-window{
+    overflow: auto;
+    height: 100%;
+}
+
+.time-stamp{
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(146, 141, 141);
+    margin: 5px;
+}
+
+.right-panel{
+    overflow: hidden;
+}
+
+
+.day-btn-div{
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+ 
+}
+
+.day-btn{
+
+    width: 150px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: rgb(59, 58, 68);
+    border: 1px solid grey;
+    
 }
